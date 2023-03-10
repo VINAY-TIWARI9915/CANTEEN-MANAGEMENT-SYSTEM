@@ -5,13 +5,15 @@ export default function Login() {
     let Navigate=useNavigate();
     return (<>
         
-        <div className="relative flex flex-col justify-center min-h-screen overflow-hidden">
+        <div className="relative flex flex-col justify-center min-h-screen overflow-hidden"  style={{ 
+      backgroundImage: `url("img4.webp")` 
+    }}>
             <div className="w-full p-6 m-auto bg-white rounded-md shadow-md lg:max-w-xl">
-            <h1 className="text-3xl font-semibold text-center text-purple-700 underline">
-                   WELCOME BACK
+            <h1 className="text-3xl font-semibold text-center text-green-500 italic">
+                   ....WELCOME BACK....
                 </h1>
-                <h1 className="text-3xl font-semibold text-center text-purple-700 underline">
-                   LOG IN
+                <h1 className="text-3xl font-semibold text-center text-orange-400 italic p-2px">
+                   ..LOG IN..
                 </h1>
                 <form className="mt-6">
                     <div className="mb-2">
