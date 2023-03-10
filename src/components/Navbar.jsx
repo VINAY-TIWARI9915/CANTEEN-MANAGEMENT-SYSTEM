@@ -21,8 +21,8 @@ export default function Navbar1()
     </span>
   </Navbar.Brand>
   <div className="flex md:order-2" >
-    <Button>
-    <div onClick={()=>{Navigate("/SIGNUP")}}> SIGN UP</div>
+    <Button style={{marginRight:"15px"}} >
+    <div onClick={()=>{Navigate("/SIGNUP")}} > SIGN UP</div>
     </Button> 
     <Button>
      <div onClick={()=>{Navigate("/LOGIN")}}> LOG IN</div>

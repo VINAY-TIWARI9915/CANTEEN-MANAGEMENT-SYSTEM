@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 
 export default function Login() {
     let Navigate=useNavigate();
@@ -7,7 +7,9 @@ export default function Login() {
         
         <div className="relative flex flex-col justify-center min-h-screen overflow-hidden">
             <div className="w-full p-6 m-auto bg-white rounded-md shadow-md lg:max-w-xl">
-            
+            <h1 className="text-3xl font-semibold text-center text-purple-700 underline">
+                   WELCOME BACK
+                </h1>
                 <h1 className="text-3xl font-semibold text-center text-purple-700 underline">
                    LOG IN
                 </h1>
@@ -52,12 +54,11 @@ export default function Login() {
                 <p className="mt-8 text-xs font-light text-center text-gray-700">
                     {" "}
                     Don't have an account?{" "}
-                    <a
-                        href="#"
+                    <Link to="/SIGNUP"
                         className="font-medium text-purple-600 hover:underline"
-                    >
-                        Sign up
-                    </a>
+                    >Sign up
+                    </Link>
+                        
                 </p>
             </div> 
         </div>
