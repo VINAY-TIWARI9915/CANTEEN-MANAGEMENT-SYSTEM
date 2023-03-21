@@ -8,12 +8,10 @@ export default function Login() {
         <div className="relative flex flex-col justify-center min-h-screen overflow-hidden"  style={{ 
       backgroundImage: `url("img4.webp")` 
     }}>
-            <div className="w-full p-6 m-auto bg-white rounded-md shadow-md lg:max-w-xl">
-            <h1 className="text-3xl font-semibold text-center text-green-500 italic">
-                   ....WELCOME BACK....
-                </h1>
-                <h1 className="text-3xl font-semibold text-center text-orange-400 italic p-2px">
-                   ..LOG IN..
+            <div className="w-full p-6 m-auto bg-white rounded-md shadow-md lg:max-w-xl" >
+           
+                <h1 className="text-3xl font-semibold text-center text-black-700 italic">
+                   LOG IN 
                 </h1>
                 <form className="mt-6">
                     <div className="mb-2">
@@ -25,7 +23,7 @@ export default function Login() {
                         </label>
                         <input
                             type="email"
-                            className="block w-full px-4 py-2 mt-2 text-purple-700 bg-white border rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                            className="block w-full px-4 py-2 mt-2 text- bg-white border rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
                         />
                     </div>
                     <div className="mb-2">

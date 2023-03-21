@@ -1,9 +1,13 @@
 import Carousel1 from "./carousel";
+import Foodcard from "./Foodcard";
 
  export default function OURMENU() {
     return(
-    <><h1>this is foodlist</h1>
-    <Carousel1></Carousel1>
+    <>
+   {/* https://free-food-menus-api-production.up.railway.app/ */}
+    <Foodcard></Foodcard>
+    <Foodcard></Foodcard>
+    
      </>
     )
     }

@@ -3,7 +3,17 @@ export default function Homepage()
 {
     return(
         <>
-<Carousel1></Carousel1>
+        <div class="flex flex-row ...">
+  <div>
+  <img className="h-100 w-200"
+        src="homeside.jpg"
+        alt="..."
+      />
+
+  </div>
+  
+ 
+</div>
         </>
     )
 }
