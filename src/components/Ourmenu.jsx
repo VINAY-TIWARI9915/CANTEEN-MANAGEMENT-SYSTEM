@@ -1,10 +1,13 @@
-import Carousel1 from "./carousel";
+
 import Foodcard from "./Foodcard";
+import { Button } from "flowbite-react";
+import { useState } from "react";
 
  export default function OURMENU() {
-
-   const foodItem= [
-      {
+   
+const [category,setcategory]=useState(0)
+const biryani=[
+   {
       id: 1,
       name: 'Ambur Biryani',
       category : 'biryani',
@@ -84,8 +87,10 @@ import Foodcard from "./Foodcard";
       price: 15,
       img: 'images/biryani/mughlai-biryani.jpg',
       quantity: 1
-  },
-  {
+  }
+]
+const chicken=[
+   {
       id: 10,
       name: 'Chicken Roast',
       category : 'chicken',
@@ -138,8 +143,10 @@ import Foodcard from "./Foodcard";
       price: 20,
       img: 'images/chicken/Murgh-Musallam.jpg',
       quantity: 1
-  },
-  {
+  }
+]
+const panner=[
+   {
       id: 16,
       name: 'Matar Paneer',
       category : 'paneer',
@@ -205,8 +212,10 @@ import Foodcard from "./Foodcard";
       price: 5,
       img: 'images/paneer/shahi-paneer.jpg',
       quantity: 1
-  },
-  {
+  }
+]
+const vegetable = [
+   {
       id: 23,
       name: 'Navratan Korma',
       category : 'vegetable',
@@ -269,7 +278,9 @@ import Foodcard from "./Foodcard";
       img: 'images/vegetable/vegetable-pakora.jpg',
       quantity: 1
   },
-  {
+]
+const chinese=[
+   {
       id: 30,
       name: 'Momos',
       category : 'chinese',
@@ -332,6 +343,13 @@ import Foodcard from "./Foodcard";
       img: 'images/chinese/veg-fried-rice.jpg',
       quantity: 1
   },
+]
+   const southindian= [
+     
+ 
+  
+ 
+ 
   {
       id: 37,
       name: 'Butter Masala Dosa',
@@ -405,18 +423,91 @@ import Foodcard from "./Foodcard";
       quantity: 1
   },
   ]
-  
+
  
     return(
     <>
    
+   <div className="flex flex-wrap items-center gap-5">
+  <div>
+    <Button
+      outline={true}
+      gradientDuoTone="purpleToBlue"
+      onClick={()=>{setcategory(0)}}
+    >
+    South Indian
+    </Button>
+  </div>
+  <div>
+    <Button
+      outline={true}
+      gradientDuoTone="cyanToBlue"
+      onClick={()=>{setcategory(1)}}
+    >
+ Chicken
+    </Button>
+  </div>
+  <div>
+    <Button
+      outline={true}
+      gradientDuoTone="greenToBlue"
+      onClick={()=>{setcategory(2)}}
+    >
+      Biryani
+    </Button>
+  </div>
+  <div>
+    <Button
+      outline={true}
+      gradientDuoTone="purpleToPink"
+      onClick={()=>{setcategory(3)}}
+    >
+ Paneer
+    </Button>
+  </div>
+  <div>
+    <Button
+      outline={true}
+      gradientDuoTone="pinkToOrange"
+      onClick={()=>{setcategory(4)}}
+    >
+      Vegetable
+    </Button>
+  </div>
+  <div>
+    <Button
+      outline={true}
+      gradientDuoTone="tealToLime"
+      onClick={()=>{setcategory(5)}}
+    >
+   Chinese
+    </Button>
+  </div>
+ 
+</div>
+
    <div className="grid grid-cols-4 gap-2">
 
 
-   {foodItem && foodItem.map((element)=>{
+
+   { category==0&& southindian && southindian.map((element)=>{
  return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
    })}
-  
+   { category==1&& chicken && chicken.map((element)=>{
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+   })}
+    { category==2&& biryani && biryani.map((element)=>{
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+   })}
+    { category==3&& panner && panner.map((element)=>{
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+   })}
+    { category==4&& vegetable && vegetable.map((element)=>{
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+   })}
+    { category==5&& chinese && chinese.map((element)=>{
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+   })}
   </div>
     
      </>
