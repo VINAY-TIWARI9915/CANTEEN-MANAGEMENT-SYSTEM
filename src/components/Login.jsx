@@ -5,8 +5,8 @@ export default function Login() {
     let Navigate=useNavigate();
     return (<>
         
-        <div className="relative flex flex-col justify-center min-h-screen overflow-hidden"  style={{ 
-      backgroundImage: `url("img4.webp")` 
+        <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-neutral-400"  style={{ 
+      backgroundImage: `url("homeside.jpg")` 
     }}>
             <div className="w-full p-6 m-auto bg-white rounded-md shadow-md lg:max-w-xl" >
            

@@ -1,18 +1,28 @@
-import { Card } from "flowbite-react";
+import { Card,Badge } from "flowbite-react";
 import React from 'react'
-export default function Foodcard() {
+export default function Foodcard(props) {
   return (
     
-      <div className="max-w-sm">
-  <Card  className="card" imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg">
-    <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      Noteworthy technology acquisitions 2021
-    </h5>
-    <p className="font-normal text-gray-700 dark:text-gray-400">
-      Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+  
+  <div className="">
+  <Card className="card" >
+    
+  <a href="#">
+        <img className="min-w-full" src={props.image} alt="" style={{minHeight:"300px",maxHeight:"300px"}} />
+    </a>
+    <h6 className="text-2xl font-bold tracking-tight text-orange-900 dark:text-white">
+     {props.name}
+    </h6>
+   
+    <p className="font-serif font-bold  text-gray-700 dark:text-gray-400">
+     RATING : {props.rating} stars
+    </p>
+    <p className="font-serif font-bold  text-gray-700 dark:text-gray-400">
+     PRICE: ₹{props.price}/-
     </p>
   </Card>
-</div>
+  </div>
+
     
   )
 }

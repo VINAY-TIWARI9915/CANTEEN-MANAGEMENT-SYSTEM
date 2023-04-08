@@ -1,4 +1,4 @@
-import Carousel1 from "./carousel"
+import React from "react"
 export default function Homepage()
 {
     return(
@@ -14,6 +14,7 @@ export default function Homepage()
   
  
 </div>
-        </>
+
+</>
     )
 }
