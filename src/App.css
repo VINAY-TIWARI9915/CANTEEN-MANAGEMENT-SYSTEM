@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+.cards{
+  @media screen (min: width 1060px; ) { grid grid-cols-3 gap-2   
+  }
+}

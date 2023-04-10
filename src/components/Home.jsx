@@ -1,19 +1,14 @@
 import React from "react"
+import Carousel1 from "./carousel"
+import Hero from "./Hero"
 export default function Homepage()
 {
     return(
         <>
-        <div class="flex flex-row ...">
-  <div>
-  <img className="h-100 w-200"
-        src="homeside.jpg"
-        alt="..."
-      />
+        
+        <Carousel1></Carousel1>
+ <Hero></Hero>
 
-  </div>
-  
- 
-</div>
 
 </>
     )

@@ -6,7 +6,7 @@ export default function Login() {
     return (<>
         
         <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-neutral-400"  style={{ 
-      backgroundImage: `url("homeside.jpg")` 
+      backgroundImage: `url("ice.jpg")` 
     }}>
             <div className="w-full p-6 m-auto bg-white rounded-md shadow-md lg:max-w-xl" >
            

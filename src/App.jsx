@@ -11,6 +11,7 @@ import Aboutpage from './components/About'
 import OURMENU from './components/OURMENU'
 import Login from './components/Login'
 import Signup from './components/Signup'
+import Cart from './components/Cart'
 
 
 function App() {
@@ -21,8 +22,11 @@ function App() {
     <BrowserRouter>
     <Navbar1></Navbar1>
     <Routes>
+    <Route path="/" element={<Homepage/>}></Route>
+
     <Route path="/home" element={<Homepage/>}></Route>
     <Route path="/OURMENU" element={<OURMENU/>}></Route>
+    <Route path="/Cart" element={<Cart/>}></Route>
     <Route path="/about" element={<Aboutpage/>}></Route>
     <Route path="/LOGIN" element={<Login/>}></Route>
     <Route path="/SIGNUP" element={<Signup/>}></Route>

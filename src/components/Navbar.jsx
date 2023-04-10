@@ -10,25 +10,25 @@ export default function Navbar1()
         <Navbar 
         fluid={true}
   rounded={true}
-  className="sticky top-0 z-5 bg-sky-200 font-serif	"
+  className="sticky top-0 z-5 bg-orange-200 font-serif"
 >
   <Navbar.Brand href="https://flowbite.com/" >
     <img
-      src="LOGO.png"
+      src="images/foodie hunter.png"
       className="mr-3 h-10 sm:h-9 "
       
     />
     <span className="self-center whitespace-nowrap text-2xl font-bold dark:text-black ">
-       FOOD CAVES
+       FOODIE HUNTER
     </span>
   </Navbar.Brand>
   
   <div className="flex md:order-2  pt-5 " >
   <Searchbar ></Searchbar>
-    <Button style={{marginRight:"10px"}} >
+    <Button style={{marginRight:"10px",background:"black"}} >
     <div onClick={()=>{Navigate("/SIGNUP")}} > SIGN UP</div>
     </Button> 
-    <Button>
+    <Button style={{background:"black"}}>
      <div onClick={()=>{Navigate("/LOGIN")}}> LOG IN</div>
     </Button>
     <Navbar.Toggle />
@@ -47,11 +47,17 @@ export default function Navbar1()
     <Link to="/OURMENU"className="text-lg "> Our Menu</Link>
     
     </Navbar.Link>
+    <Navbar.Link href="/navbars">
+    <Link to="/CART"className="text-lg "> Cart</Link>
+    </Navbar.Link>
     
     <Navbar.Link href="/navbars">
     <Link to="/OURMENU"className="text-lg "> Contact</Link>
     </Navbar.Link>
+    
     <Navbar.Link>
+      
+      
     <Link to="/About" className="text-lg "> About</Link>
    
     </Navbar.Link>

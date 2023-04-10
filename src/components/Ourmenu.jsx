@@ -345,11 +345,6 @@ const chinese=[
   },
 ]
    const southindian= [
-     
- 
-  
- 
- 
   {
       id: 37,
       name: 'Butter Masala Dosa',
@@ -422,13 +417,132 @@ const chinese=[
       img: 'images/south indian/sambhar-vada.jpg',
       quantity: 1
   },
+  
   ]
-
+  const Beverages= [
+    {
+    id: 45,
+    name: 'Water',
+    category: 'Beverages',
+    rating: 4.3,
+    price:20 ,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYhJL4PACyZ7DOTScuMfIlC7LXVI0EeiNhiQ&usqp=CAU' ,
+    quantity: 1
+    },
+    {
+    id: 46,
+    name: 'TEA',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 10,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0YCtz3-OgN0XH87bgis2d2fmGT12zwcp5XA&usqp=CAU',
+    quantity: 1
+    },
+    {
+    id: 47,
+    name: 'Cold Coffee ',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 25,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwFK0m5KafBR_4sBcKyIMnSrLDEyBfhMhLBA&usqp=CAU',
+    quantity: 1
+    },
+    {
+    id: 48,
+    name: 'Hot Coffee',
+    category: 'Beverages',
+    rating: 4.3,
+    price:20 ,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1U4oTJW4-aTjSosnsRSBHfwQYSqyW2ysr2w&usqp=CAU',
+    quantity: 1
+    },{
+    id: 49,
+    name: 'Coca Cola 330ml',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 20,
+    img: 'https://i.imgur.com/nJ6LeWv.png',
+    quantity: 1
+    },
+    {
+    id: 50,
+    name: 'Fanta 330ml',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 20,
+    img: 'https://i.imgur.com/1WDkfme.png',
+    quantity: 1
+    },
+    {
+    id: 51,
+    name: 'Sprite 330ml',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 15,
+    img: 'https://i.imgur.com/qP4Nx1x.jpg',
+    quantity: 1
+    },
+    {
+    id: 52,
+    name: 'Frooti 1.8L',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 100,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLbvGQIgGQCC5ZFFOYxKIHWwfOK8s954wGQ&usqp=CAU',
+    quantity: 1
+    },
+    {
+    id: 53,
+    name: 'Banana Milk Shake',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 40,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY8nBubIK5DJQ2k2RM-h_bR6FhwJndxIluqA&usqp=CAU',
+    quantity: 1
+    },
+    {
+    id: 54,
+    name: 'Coca cola 1.25 L',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 68,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDDI6FeM77WkB9qt9bOhTSHBeWHoxiOZyaaAoEMGu4UX7jPMB5wpJrg9I&s=10',
+    quantity: 1
+    },
+    {
+    id: 55,
+    name: 'Coco cola 2 L',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 90,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLfjL4TazSw0vABhbc3sAlHPi4hCVHRAN5dD15SpGdZSGMSMZpff-10Js&s=10',
+    quantity: 1
+    },
+    {
+    id: 56,
+    name: 'Sprite 2 L',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 85,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT210uvWrPpRrywdZMjfcmZyd7c7OLNJYysQw&usqp=CAU',
+    quantity: 1
+    },
+    {
+    id: 57,
+    name: 'Frooti Tetra pack 160ml',
+    category: 'Beverages',
+    rating: 4.3,
+    price: 15,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5M7rJDsA0B_MSIIp30HgLcon-vOv27IyIRPy9LJqYHgoMMQjNjbPR65I&s=10',
+    quantity: 1
+    },
+    ]
  
     return(
     <>
    
    <div className="flex flex-wrap items-center gap-5">
+   
   <div>
     <Button
       outline={true}
@@ -436,6 +550,15 @@ const chinese=[
       onClick={()=>{setcategory(0)}}
     >
     South Indian
+    </Button>
+  </div>
+  <div>
+    <Button
+      outline={true}
+      gradientDuoTone="pinkToOrange"
+      onClick={()=>{setcategory(6)}}
+    >
+   Bevarages
     </Button>
   </div>
   <div>
@@ -456,6 +579,7 @@ const chinese=[
       Biryani
     </Button>
   </div>
+
   <div>
     <Button
       outline={true}
@@ -488,14 +612,14 @@ const chinese=[
 
    <div className="grid grid-cols-4 gap-2">
 
-
-
    { category==0&& southindian && southindian.map((element)=>{
- return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}>
+  </Foodcard></div>
    })}
    { category==1&& chicken && chicken.map((element)=>{
  return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
    })}
+  
     { category==2&& biryani && biryani.map((element)=>{
  return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
    })}
@@ -508,6 +632,10 @@ const chinese=[
     { category==5&& chinese && chinese.map((element)=>{
  return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
    })}
+    { category==6&& Beverages && Beverages.map((element)=>{
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+   })}
+  
   </div>
     
      </>
