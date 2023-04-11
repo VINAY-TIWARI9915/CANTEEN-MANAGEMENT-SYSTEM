@@ -3,6 +3,8 @@ import { Button } from "flowbite-react"
 import { Link } from "react-router-dom"
 import { useNavigate } from 'react-router-dom';
 import { Searchbar } from "./Searchbar";
+import {BsCart2} from "react-icons/bs";
+
 export default function Navbar1()
 {let Navigate=useNavigate();
     return(
@@ -10,7 +12,7 @@ export default function Navbar1()
         <Navbar 
         fluid={true}
   rounded={true}
-  className="sticky top-0 z-5 bg-orange-200 font-serif"
+  className="top-0 z-5 font-serif "
 >
   <Navbar.Brand href="https://flowbite.com/" >
     <img
@@ -19,7 +21,7 @@ export default function Navbar1()
       
     />
     <span className="self-center whitespace-nowrap text-2xl font-bold dark:text-black ">
-       FOODIE HUNTER
+       FOODIE
     </span>
   </Navbar.Brand>
   
@@ -34,10 +36,7 @@ export default function Navbar1()
     <Navbar.Toggle />
   </div>
   <Navbar.Collapse>
-    <Navbar.Link
-      href="/navbars"
-      active={true}
-    >
+    <Navbar.Link>
       <Link to="/home" className="text-lg ">
       Home
       </Link>
@@ -48,13 +47,17 @@ export default function Navbar1()
     
     </Navbar.Link>
     <Navbar.Link href="/navbars">
-    <Link to="/CART"className="text-lg "> Cart</Link>
+      <div className="flex justify-between">
+        <span>
+          <Link to="/CART"className="text-lg mr-2 "> Cart  </Link>
+        </span>
+        <span>
+        <BsCart2 size='1.5rem'></BsCart2>
+        </span>
+      </div>
     </Navbar.Link>
     
-    <Navbar.Link href="/navbars">
-    <Link to="/OURMENU"className="text-lg "> Contact</Link>
-    </Navbar.Link>
-    
+   
     <Navbar.Link>
       
       

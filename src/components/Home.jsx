@@ -7,7 +7,7 @@ export default function Homepage()
         <>
         
         <Carousel1></Carousel1>
- <Hero></Hero>
+        <Hero></Hero>
 
 
 </>

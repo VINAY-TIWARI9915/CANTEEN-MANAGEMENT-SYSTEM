@@ -12,7 +12,7 @@ const biryani=[
       name: 'Ambur Biryani',
       category : 'biryani',
       rating : 4.3,
-      price: 13,
+      price: 130,
       img: 'images/biryani/Ambur-Chicken-Biryani.jpg',
       quantity: 1
   },
@@ -21,7 +21,7 @@ const biryani=[
       name: 'Hyderabadi Biryani',
       category : 'biryani',
       rating : 4.3,
-      price: 15,
+      price: 150,
       img: 'images/biryani/Chicken-Biryani-hyd.jpg',
       quantity: 1
   },
@@ -30,7 +30,7 @@ const biryani=[
       name: 'Egg Biryani',
       category : 'biryani',
       rating : 4.3,
-      price: 18,
+      price: 180,
       img: 'images/biryani/egg-biryani.jpeg',
       quantity: 1
   },
@@ -39,7 +39,7 @@ const biryani=[
       name: 'Goan Fish Biryani',
       category : 'biryani',
       rating : 4.3,
-      price: 15,
+      price: 150,
       img: 'images/biryani/goan-fish-biryani.jpg',
       quantity: 1
   },
@@ -48,7 +48,7 @@ const biryani=[
       name: 'Mutton Biryani',
       category : 'biryani',
       rating : 4.3,
-      price: 10,
+      price: 100,
       img: 'images/biryani/hyd-Mutton-Biryani.jpg',
       quantity: 1
   },
@@ -57,7 +57,7 @@ const biryani=[
       name: 'Kamrupi Biryani',
       category : 'biryani',
       rating : 4.3,
-      price: 12,
+      price: 120,
       img: 'images/biryani/kamrupi-biryani.jpg',
       quantity: 1
   },
@@ -66,7 +66,7 @@ const biryani=[
       name: 'Kashmiri Biryani',
       category : 'biryani',
       rating : 4.3,
-      price: 13,
+      price: 103,
       img: 'images/biryani/kashmiri.pulao.jpg',
       quantity: 1
   },
@@ -75,7 +75,7 @@ const biryani=[
       name: 'Memoni Biryani',
       category : 'biryani',
       rating : 4.3,
-      price: 20,
+      price: 200,
       img: 'images/biryani/memonibiryani.png',
       quantity: 1
   },
@@ -84,7 +84,7 @@ const biryani=[
       name: 'Mughlai Biryani',
       category : 'biryani',
       rating : 4.3,
-      price: 15,
+      price: 150,
       img: 'images/biryani/mughlai-biryani.jpg',
       quantity: 1
   }
@@ -95,7 +95,7 @@ const chicken=[
       name: 'Chicken Roast',
       category : 'chicken',
       rating : 4.3,
-      price: 11,
+      price: 110,
       img: 'images/chicken/Chicken_roast.jpg',
       quantity: 1
   },
@@ -104,7 +104,7 @@ const chicken=[
       name: 'Chicken Curry',
       category : 'chicken',
       rating : 4.3,
-      price: 10,
+      price: 100,
       img: 'images/chicken/Chicken-Curry.jpg',
       quantity: 1
   },
@@ -113,7 +113,7 @@ const chicken=[
       name: 'Chicken Do Pyaza',
       category : 'chicken',
       rating : 4.3,
-      price: 14,
+      price: 140,
       img: 'images/chicken/Chicken-do-Pyaza.jpg',
       quantity: 1
   },
@@ -122,7 +122,7 @@ const chicken=[
       name: 'Chicken Masala',
       category : 'chicken',
       rating : 4.3,
-      price: 12,
+      price: 120,
       img: 'images/chicken/Chicken-Masala.jpeg',
       quantity: 1
   },
@@ -131,7 +131,7 @@ const chicken=[
       name: 'Handi Chicken',
       category : 'chicken',
       rating : 4.3,
-      price: 17,
+      price: 170,
       img: 'images/chicken/Handi-chicken.jpg',
       quantity: 1
   },
@@ -140,7 +140,7 @@ const chicken=[
       name: 'Murgh Musallam',
       category : 'chicken',
       rating : 4.3,
-      price: 20,
+      price: 200,
       img: 'images/chicken/Murgh-Musallam.jpg',
       quantity: 1
   }
@@ -151,7 +151,7 @@ const panner=[
       name: 'Matar Paneer',
       category : 'paneer',
       rating : 4.3,
-      price: 15,
+      price: 150,
       img: 'images/paneer/Matar-Paneer.jpg',
       quantity: 1
   
@@ -161,7 +161,7 @@ const panner=[
       name: 'Palak Paneer',
       category : 'paneer',
       rating : 4.3,
-      price: 10,
+      price: 100,
       img: 'images/paneer/palak-paneer.jpg',
       quantity: 1
   },
@@ -170,7 +170,7 @@ const panner=[
       name: 'Paneer Butter Masala',
       category : 'paneer',
       rating : 4.3,
-      price: 15,
+      price: 150,
       img: 'images/paneer/paneer-butter-masala.jpg',
       quantity: 1
   
@@ -180,7 +180,7 @@ const panner=[
       name: 'Paneer Do Pyaza',
       category : 'paneer',
       rating : 4.3,
-      price: 12,
+      price: 120,
       img: 'images/paneer/Paneer-Do-Pyaza.jpg',
       quantity: 1
   
@@ -190,7 +190,7 @@ const panner=[
       name: 'Hyderabadi Paneer',
       category : 'paneer',
       rating : 4.3,
-      price: 8,
+      price: 80,
       img: 'images/paneer/Paneer-Hyderabadi.jpg',
       quantity: 1
   },
@@ -199,7 +199,7 @@ const panner=[
       name: 'Paneer Lababdar',
       category : 'paneer',
       rating : 4.3,
-      price: 7,
+      price: 70,
       img: 'images/paneer/paneer-lababdar.jpg',
       quantity: 1
   },
@@ -209,7 +209,7 @@ const panner=[
       age: '32',
       category : 'paneer',
       rating : 4.3,
-      price: 5,
+      price: 50,
       img: 'images/paneer/shahi-paneer.jpg',
       quantity: 1
   }
@@ -220,7 +220,7 @@ const vegetable = [
       name: 'Navratan Korma',
       category : 'vegetable',
       rating : 4.3,
-      price: 8,
+      price: 80,
       img: 'images/vegetable/navratan-korma_-vegetable.png',
       quantity: 1
   },
@@ -229,7 +229,7 @@ const vegetable = [
       name: 'Veg Jalfrezi',
       category : 'vegetable',
       rating : 4.3,
-      price: 7,
+      price: 70,
       img: 'images/vegetable/VEG-JALFREZI.jpg',
       quantity: 1
   },
@@ -238,7 +238,7 @@ const vegetable = [
       name: 'Veg Biryani',
       category : 'vegetable',
       rating : 4.3,
-      price: 5,
+      price: 50,
       img: 'images/vegetable/vegetable-biryani.jpg',
       quantity: 1
   },
@@ -247,7 +247,7 @@ const vegetable = [
       name: 'Veg Curry',
       category : 'vegetable',
       rating : 4.3,
-      price: 7,
+      price: 70,
       img: 'images/vegetable/vegetable-curry.jpeg',
       quantity: 1
   },
@@ -256,7 +256,7 @@ const vegetable = [
       name: 'Veg Kolhapur',
       category : 'vegetable',
       rating : 4.3,
-      price: 10,
+      price: 100,
       img: 'images/vegetable/vegetable-kolhapuri.jpg',
       quantity: 1
   },
@@ -265,7 +265,7 @@ const vegetable = [
       name: 'Veg Masala',
       category : 'vegetable',
       rating : 4.3,
-      price: 4,
+      price: 40,
       img: 'images/vegetable/vegetable-masala.jpg',
       quantity: 1
   },
@@ -274,7 +274,7 @@ const vegetable = [
       name: 'Veg Pakora',
       category : 'vegetable',
       rating : 4.3,
-      price: 4,
+      price: 40,
       img: 'images/vegetable/vegetable-pakora.jpg',
       quantity: 1
   },
@@ -285,7 +285,7 @@ const chinese=[
       name: 'Momos',
       category : 'chinese',
       rating : 4.3,
-      price: 8,
+      price: 80,
       img: 'images/chinese/cabbage-momos-.jpg',
       quantity: 1
   },
@@ -294,7 +294,7 @@ const chinese=[
       name: 'Chicken Manchurian',
       category : 'chinese',
       rating : 4.3,
-      price: 7,
+      price: 700,
       img: 'images/chinese/ChickenManchurian.jpg',
       quantity: 1
   },
@@ -303,7 +303,7 @@ const chinese=[
       name: 'Chili Chicken',
       category : 'chinese',
       rating : 4.3,
-      price: 5,
+      price: 500,
       img: 'images/chinese/Chili-Chicken.jpg',
       quantity: 1
   },
@@ -312,7 +312,7 @@ const chinese=[
       name: 'Chowmein',
       category : 'chinese',
       rating : 4.3,
-      price: 16,
+      price: 160,
       img: 'images/chinese/chowmin.jpg',
       quantity: 1
   },
@@ -321,7 +321,7 @@ const chinese=[
       name: 'Spring Roll',
       category : 'chinese',
       rating : 4.3,
-      price: 14,
+      price: 140,
       img: 'images/chinese/spring-rolls.jpg',
       quantity: 1
   },
@@ -330,7 +330,7 @@ const chinese=[
       name: 'Szechuan Chicken',
       category : 'chinese',
       rating : 4.3,
-      price: 10,
+      price: 100,
       img: 'images/chinese/szechuan-chicken.jpg',
       quantity: 1
   },
@@ -339,7 +339,7 @@ const chinese=[
       name: 'Fried Rice',
       category : 'chinese',
       rating : 4.3,
-      price: 8,
+      price: 80,
       img: 'images/chinese/veg-fried-rice.jpg',
       quantity: 1
   },
@@ -350,7 +350,7 @@ const chinese=[
       name: 'Butter Masala Dosa',
       category : 'south indian',
       rating : 4.3,
-      price: 18,
+      price: 180,
       img: 'images/south indian/Butter-Masala-Dosa.png',
       quantity: 1
   },
@@ -368,7 +368,7 @@ const chinese=[
       name: 'Masala Dosa',
       category : 'south indian',
       rating : 4.3,
-      price: 12,
+      price: 120,
       img: 'images/south indian/masala-dosa.jpg',
       quantity: 1
   },
@@ -377,7 +377,7 @@ const chinese=[
       name: 'Mysore Bonda',
       category : 'south indian',
       rating : 4.3,
-      price: 10,
+      price: 110,
       img: 'images/south indian/mysore-bonda.jpg',
       quantity: 1
   },
@@ -386,7 +386,7 @@ const chinese=[
       name: 'Onion Uttapam',
       category : 'south indian',
       rating : 4.3,
-      price: 15,
+      price: 115,
       img: 'images/south indian/onion-uttapam.jpg',
       quantity: 1
   },
@@ -395,7 +395,7 @@ const chinese=[
       name: 'Plain Dosa',
       category : 'south indian',
       rating : 4.3,
-      price: 40,
+      price: 140,
       img: 'images/south indian/plain-dosa.jpeg',
       quantity: 1
   },
@@ -404,7 +404,7 @@ const chinese=[
       name: 'Rava Uttapam',
       category : 'south indian',
       rating : 4.3,
-      price: 25,
+      price: 260,
       img: 'images/south indian/Rava-Uttapam.jpg',
       quantity: 1
   },
@@ -413,7 +413,7 @@ const chinese=[
       name: 'Sambhar Vada',
       category : 'south indian',
       rating : 4.3,
-      price: 34,
+      price: 60,
       img: 'images/south indian/sambhar-vada.jpg',
       quantity: 1
   },
@@ -541,13 +541,14 @@ const chinese=[
     return(
     <>
    
-   <div className="flex flex-wrap items-center gap-5">
+   <div className="flex flex-wrap items-center gap-5 h-20 text-2xl">
    
   <div>
     <Button
       outline={true}
       gradientDuoTone="purpleToBlue"
       onClick={()=>{setcategory(0)}}
+     
     >
     South Indian
     </Button>

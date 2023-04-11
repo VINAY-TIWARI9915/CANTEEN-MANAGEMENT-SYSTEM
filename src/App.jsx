@@ -4,6 +4,7 @@ import { useState } from 'react'
  
 
 import Navbar1 from './components/Navbar'
+import Footer from './components/Footer'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Homepage from './components/Home'
@@ -12,6 +13,7 @@ import OURMENU from './components/OURMENU'
 import Login from './components/Login'
 import Signup from './components/Signup'
 import Cart from './components/Cart'
+
 
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
     <Route path="/SIGNUP" element={<Signup/>}></Route>
     
     </Routes>
+    <Footer></Footer>
     </BrowserRouter>
    
    

@@ -2,7 +2,7 @@ import { Carousel } from "flowbite-react"
 
 function Carousel1() {
   return (
-    <><div className="h-56 sm:h-64 xl:h-40 2xl:h-96">
+    <><div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
     <Carousel slideInterval={2000}>
       
    
@@ -11,7 +11,7 @@ function Carousel1() {
         alt="..."
       />
        <img
-        src="images/chinese/spring-rolls.jpg"
+        src="images/chinese/cabbage-momos-.jpg"
         alt="..."
       />
        <img
