@@ -61,7 +61,7 @@ export default function Navbar1()
     <Navbar.Link>
       
       
-    <Link to="/About" className="text-lg "> About</Link>
+    <Link to="/About" className="text-lg "> About Us</Link>
    
     </Navbar.Link>
   </Navbar.Collapse>

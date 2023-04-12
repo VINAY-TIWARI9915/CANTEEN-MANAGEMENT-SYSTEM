@@ -5,13 +5,10 @@ export default function Login() {
     let Navigate=useNavigate();
     return (<>
         
-        <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-neutral-400"  style={{ 
-      backgroundImage: `url("/images/BACKCOVER.jpg")` 
-    }}>
-            <div className="w-full p-6 m-auto bg-gray-200 rounded-md shadow-md lg:max-w-xl " >
-           <h1 className='text-3xl font-semibold text-center text-black-700'>
-            LOGIN TO START ORDERING
-           </h1>
+        <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-opacity-25 bg-cover bg-[url('/images/Background.png')]"  
+    >
+            <div className="w-full p-6 m-auto bg-gray-200 rounded-md shadow-md lg:max-w-xl " style={{maxWidth:'35%'}}>
+           
                 <h1 className="text-3xl font-semibold text-center text-red-700 ">
                    LOG IN 
                 </h1>

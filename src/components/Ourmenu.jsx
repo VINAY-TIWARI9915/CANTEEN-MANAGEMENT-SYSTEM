@@ -611,30 +611,30 @@ const chinese=[
  
 </div>
 
-   <div className="grid grid-cols-4 gap-2">
+   <div className="grid grid-cols-4 gap-1">
 
    { category==0&& southindian && southindian.map((element)=>{
- return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}>
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} element={element} rating={element.rating}>
   </Foodcard></div>
    })}
    { category==1&& chicken && chicken.map((element)=>{
- return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} element={element} rating={element.rating}></Foodcard></div>
    })}
   
     { category==2&& biryani && biryani.map((element)=>{
- return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price}   element={element} rating={element.rating}></Foodcard></div>
    })}
     { category==3&& panner && panner.map((element)=>{
- return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price}   element={element} rating={element.rating}></Foodcard></div>
    })}
     { category==4&& vegetable && vegetable.map((element)=>{
- return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price}  element={element} rating={element.rating}></Foodcard></div>
    })}
     { category==5&& chinese && chinese.map((element)=>{
- return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price}   element={element} rating={element.rating}></Foodcard></div>
    })}
     { category==6&& Beverages && Beverages.map((element)=>{
- return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price} rating={element.rating}></Foodcard></div>
+ return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price}  element={element}  rating={element.rating}></Foodcard></div>
    })}
   
   </div>
