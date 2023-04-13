@@ -5,7 +5,7 @@ export default function Login() {
     let Navigate=useNavigate();
     return (<>
         
-        <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-opacity-25 bg-cover bg-[url('/images/Background.png')]"  
+        <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-opacity-25 bg-cover bg-[url('images/BACKCOVER.png')]"  
     >
             <div className="w-full p-6 m-auto bg-gray-200 rounded-md shadow-md lg:max-w-xl " style={{maxWidth:'35%'}}>
            

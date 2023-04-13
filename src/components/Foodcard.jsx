@@ -7,7 +7,7 @@ export default function Foodcard(props) {
     
   
   <div className="mr-2 ml-1.5 mb-3 ">
-  <Card className="card bg-gradient-to-r from-cyan-200 to-red-300" >
+  <Card className="card bg-gradient-to-r from-gray-200 to-red-200" >
     
   <a href="#">
         <img className="min-w-full" src={props.image} alt="" style={{minHeight:"300px",maxHeight:"300px"}} />

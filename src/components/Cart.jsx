@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { CartProvider, useCart } from "react-use-cart";
 import { Button } from "flowbite-react";
 import { Card } from "flowbite-react";
+import { MdAddCircle, MdRemoveCircle} from 'react-icons/md';
 
 function Cart() {
     const {
@@ -19,25 +20,29 @@ function Cart() {
   const [show, setShow] = useState(false);
   return (
     <>
-          <h1>Cart ({totalUniqueItems})</h1>
-    
+        
+    <div className="bg-gray-100 mr-96 ml-4 font-serif text-2xl underline text-sky-700">
+    <h1 className="justify-center">Cart ({totalUniqueItems})</h1>
           <ul>
+          
             {items.map((item) => (
               <li key={item.id}>
-                <img src={item.img} className="h-48"/>
-               Quantity: {item.quantity} x Name: {item.title} &mdash; Price: {item.price} &nbsp;
-                
-                 
+                <div className="flex justify-between">
+                <img src={item.img} className="mb-5 mt-3 ml-5" style={{width:250, height:200}}/>
+                <p className="pt-10">{item.name} &mdash; Price: {item.price} &nbsp;</p>
+               <p className="pt-10">Quantity: {item.quantity} </p>
+               
+               
               
                 
-    <Button gradientDuoTone="pinkToOrange"  onClick={() => updateItemQuantity(item.id, item.quantity - 1)} >             
-      -</Button>
-      <Button gradientDuoTone="purpleToBlue"  onClick={() => updateItemQuantity(item.id, item.quantity + 1)} >             
-      ADD  +</Button>
+    <Button  className="bg-slate-200 m-4" onClick={() => updateItemQuantity(item.id, item.quantity - 1)} >             
+      <MdRemoveCircle color="black" size='1.5rem'></MdRemoveCircle></Button>
+      <Button className="bg-slate-200 m-3" onClick={() => updateItemQuantity(item.id, item.quantity + 1)} >             
+      <MdAddCircle color="black" size='1.5rem' ></MdAddCircle></Button>
       
              
-                <button   gradientDuoTone="pinkToOrange" onClick={() => removeItem(item.id)}>&times:REMOVE</button>
-                
+                {/* <button   gradientDuoTone="pinkToOrange" onClick={() => removeItem(item.id)}>&times:REMOVE</button> */}
+                </div>
               </li>
               
             ))}
@@ -51,10 +56,11 @@ function Cart() {
            
                 
             
-          </ul>
+          </ul></div>
         </>
       
   );
 }
 
 export default Cart;
+

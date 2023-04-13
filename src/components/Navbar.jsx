@@ -9,10 +9,11 @@ export default function Navbar1()
 {let Navigate=useNavigate();
     return(
         <>
+      
         <Navbar 
         fluid={true}
   rounded={true}
-  className="top-0 z-5 font-serif "
+  className="top-0 z-5 font-serif"
 >
   <Navbar.Brand href="https://flowbite.com/" >
     <img
@@ -37,7 +38,7 @@ export default function Navbar1()
   </div>
   <Navbar.Collapse>
     <Navbar.Link>
-      <Link to="/home" className="text-lg ">
+      <Link to="/home" className="text-lg hover:h-12 ">
       Home
       </Link>
     </Navbar.Link>
@@ -46,7 +47,7 @@ export default function Navbar1()
     <Link to="/OURMENU"className="text-lg "> Our Menu</Link>
     
     </Navbar.Link>
-    <Navbar.Link href="/navbars">
+    <Navbar.Link href="/cart">
       <div className="flex justify-between">
         <span>
           <Link to="/CART"className="text-lg mr-2 "> Cart  </Link>
@@ -66,6 +67,7 @@ export default function Navbar1()
     </Navbar.Link>
   </Navbar.Collapse>
 </Navbar>
+
 </>
     )
 }
