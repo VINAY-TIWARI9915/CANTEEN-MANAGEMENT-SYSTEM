@@ -22,7 +22,7 @@ function Cart() {
     <>
         
     <div className="bg-gray-100 mr-96 ml-4 font-serif text-2xl underline text-sky-700">
-    <h1 className="justify-center">Cart ({totalUniqueItems})</h1>
+    <h1>Cart ({totalUniqueItems})</h1>
           <ul>
           
             {items.map((item) => (
