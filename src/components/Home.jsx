@@ -1,6 +1,10 @@
 import React from "react"
 import Carousel1 from "./carousel"
+
 import Hero from "./Hero"
+
+
+
 export default function Homepage()
 {
     return(
@@ -8,7 +12,9 @@ export default function Homepage()
         
         <Carousel1></Carousel1>
         <Hero></Hero>
-
+       
+  
+   
 
 </>
     )

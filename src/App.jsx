@@ -14,6 +14,7 @@ import Login from './components/Login'
 import Signup from './components/Signup'
 import Cart from './components/Cart'
 import { CartProvider, useCart } from "react-use-cart";
+import Buying1 from './components/Buying'
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
     <Route path="/about" element={<About1/>}></Route>
     <Route path="/LOGIN" element={<Login/>}></Route>
     <Route path="/SIGNUP" element={<Signup/>}></Route>
+    <Route path="/Buying" element={<Buying1/>}></Route>
     
     </Routes>
     <Footer></Footer>

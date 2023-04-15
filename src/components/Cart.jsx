@@ -3,8 +3,12 @@ import { CartProvider, useCart } from "react-use-cart";
 import { Button } from "flowbite-react";
 import { Card } from "flowbite-react";
 import { MdAddCircle, MdRemoveCircle} from 'react-icons/md';
+import { Link } from "react-router-dom"
+import { useNavigate } from 'react-router-dom'; 
+
 
 function Cart() {
+  let Navigate=useNavigate();
     const {
         isEmpty,
         totalUniqueItems,
@@ -57,8 +61,10 @@ function Cart() {
   TOTAL PRICE: {cartTotal}
   </h5>
   <div className="m-2 w-2/2  flex justify-center"> <Button className="bg-red-400"  onClick={()=> emptyCart()} > CLEAR CART ITEMS</Button>
-  <Button variant="success" className="ml-5 bg-green-400" onClick={()=> emptyCart()}>BUY  </Button></div>
   
+  <Button variant="success" className="ml-5 bg-green-400">
+     <div onClick={()=>{Navigate("/Buying")}}>BUY NOW</div>
+    </Button></div>
 </Card>
            
                 

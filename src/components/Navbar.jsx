@@ -13,7 +13,7 @@ export default function Navbar1()
         <Navbar 
         fluid={true}
   rounded={true}
-  className="top-0 z-5 font-serif"
+  className="top-0 z-5 font-serif bg-opacity-40 shadow-2xl "
 >
   <Navbar.Brand href="https://flowbite.com/" >
     <img

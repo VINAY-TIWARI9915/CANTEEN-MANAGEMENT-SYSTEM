@@ -344,6 +344,58 @@ const chinese=[
       quantity: 1
   },
 ]
+const homeitems=[
+  {
+     id: 1,
+     name: 'Ambur Biryani',
+     category : 'homeitems',
+     rating : 4.3,
+     price: 130,
+     img: 'images/biryani/Ambur-Chicken-Biryani.jpg',
+     quantity: 1
+ },
+  
+ {
+  id: 19,
+  name: 'Paneer Do Pyaza',
+  category : 'homeitems',
+  rating : 4.3,
+  price: 120,
+  img: 'images/paneer/Paneer-Do-Pyaza.jpg',
+  quantity: 1
+
+},
+{
+  id: 39,
+  name: 'Masala Dosa',
+  category : 'homeitems',
+  rating : 4.3,
+  price: 120,
+  img: 'images/south indian/masala-dosa.jpg',
+  quantity: 1
+},
+
+{
+  id: 47,
+  name: 'Cold Coffee ',
+  category: 'homeitems ',
+  rating: 4.3,
+  price: 25,
+  img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwFK0m5KafBR_4sBcKyIMnSrLDEyBfhMhLBA&usqp=CAU',
+  quantity: 1
+  },
+
+  {
+    id: 43,
+    name: 'Rava Uttapam',
+    category : 'homeitems',
+    rating : 4.3,
+    price: 260,
+    img: 'images/south indian/Rava-Uttapam.jpg',
+    quantity: 1
+}
+]
+
    const southindian= [
   {
       id: 37,
@@ -636,7 +688,7 @@ const chinese=[
     { category==6&& Beverages && Beverages.map((element)=>{
  return  <div key={element.id} > <Foodcard  name={element.name} category={element.category} image={element.img} price={element.price}  element={element}  rating={element.rating}></Foodcard></div>
    })}
-  
+   
   </div>
     
      </>
